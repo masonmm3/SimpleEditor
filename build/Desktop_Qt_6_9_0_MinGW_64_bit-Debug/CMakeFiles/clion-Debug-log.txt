@@ -1,0 +1,5 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/mason/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\mason\Documents\Code\SimpleEditor -B C:\Users\mason\Documents\Code\SimpleEditor\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.8s)
+-- Generating done (0.3s)
+-- Build files have been written to: C:/Users/mason/Documents/Code/SimpleEditor/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug
