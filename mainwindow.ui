@@ -55,6 +55,7 @@
      <string>File</string>
     </property>
     <addaction name="actionSave_2"/>
+    <addaction name="actionClose"/>
     <addaction name="actionOpen_File"/>
     <addaction name="actionOpen_Folder"/>
    </widget>
@@ -88,6 +89,11 @@
   <action name="actionOpen_Folder">
    <property name="text">
     <string>Open Folder</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
    </property>
   </action>
  </widget>
