@@ -1,12 +1,12 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "ui_mainwindow.h"
-#include <iostream>
 #include <fstream>
-#include <iterator>
 #include <qcontainerfwd.h>
 #include <qinputdialog.h>
 #include <qmessagebox.h>
+#include <qnamespace.h>
+#include <qpushbutton.h>
 #include <string>
 
 using namespace std;
@@ -34,6 +34,8 @@ void MainWindow::SaveFile() {
     } else {
         fileName = *MainWindow::openedFile;
     }
+
+
 
     ofstream fileToSave(fileName);
     fileToSave << MainWindow::text->toPlainText().toStdString();

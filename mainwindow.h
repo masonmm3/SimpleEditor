@@ -8,7 +8,14 @@
 #include <QListView>
 #include <QMessageBox>
 #include <QFileDialog>
+#include <qboxlayout.h>
+#include <qlistview.h>
+#include <qtreeview.h>
 #include <string>
+#include <vector>
+#include <QTreeView>
+#include <QSizePolicy>
+#include <QPushButton>
 using namespace std;
 
 QT_BEGIN_NAMESPACE
@@ -30,6 +37,7 @@ public slots:
   void CloseFile();
 
 private:
+  void addButton();
   Ui::MainWindow *ui;
   QTextEdit *text;
   QAction *save;

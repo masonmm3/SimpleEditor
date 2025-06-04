@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>857</width>
+    <height>575</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,24 +17,15 @@
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout">
-      <item alignment="Qt::AlignmentFlag::AlignLeft">
-       <widget class="QListView" name="listView">
-        <property name="minimumSize">
-         <size>
-          <width>20</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>150</width>
-          <height>16777215</height>
-         </size>
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
        </widget>
-      </item>
-      <item>
-       <widget class="QTextEdit" name="textEdit"/>
       </item>
      </layout>
     </item>
@@ -46,7 +37,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>857</width>
      <height>21</height>
     </rect>
    </property>
@@ -57,7 +48,6 @@
     <addaction name="actionSave_2"/>
     <addaction name="actionClose"/>
     <addaction name="actionOpen_File"/>
-    <addaction name="actionOpen_Folder"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
